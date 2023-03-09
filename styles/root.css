@@ -1,0 +1,20 @@
+:root { /* обращение к псевдоклассу */
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --grey: #6b7280;
+    --Light: #eee;
+    --pink: #ec4899;
+    --purple: #8b5cf6;
+}
+.root {
+    background: var(--dark);
+}
+.page {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
