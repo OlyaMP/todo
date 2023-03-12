@@ -1,8 +1,11 @@
-.header__title {
-    font-size: 35px;
+.tasks {
+    padding-top: 25px;
+}
+.tasks__title {
+    font-size: 30px;
     color: var(--grey);
 }
-.header__button {
+.tasks__button {
     color: var(--pink);
     height: 24px;
     width: fit-content;
@@ -10,17 +13,20 @@
     border: 0;
     text-transform: uppercase;
     font-family: 'Open Sans', serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     cursor: pointer;
 }
-.header__input {
+.tasks__input {
     background: var(--darkest);
-    width: 250px;
+    width: 210px;
     border: 0;
     border-radius: 13px;
     height: 24px;
     outline: none;
     color: var(--purple);
     padding-left: 10px;
+}
+.task {
+    margin-top: 10px;
 }
